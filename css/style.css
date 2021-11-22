@@ -1,0 +1,92 @@
+.BoxOne{
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+
+ul{ 
+    text-decoration: none; 
+}
+
+li{
+    display: inline;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.active{
+    background-color:lightgrey;
+    color: black;
+}
+
+
+#icone{
+    font-size: 20px;
+}
+
+.carousel{
+    background-color: lightgrey;
+    height: 200px;
+  
+  }
+  
+.BoxTwo{
+
+    color:gray;
+    background-color: white;
+    height:60px;
+    text-align:center ;
+    
+}
+
+.BoxThree{
+    display: flex;
+    background-color: white;
+}
+
+article{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 10px;
+    height: 300px;
+}
+.ArtOne{
+    background-color: lightgray;
+    width: calc(100%/3);
+    padding: 3px;
+    margin: 3px;
+}
+.ArtTwo{
+    background-color: lightgray;
+    width: calc(100%/3);
+    padding: 3px;
+    margin: 3px;
+}
+.ArtThree{
+    background-color: lightgray;
+    width: calc(100%/3);
+    padding: 3px;
+    margin: 3px;
+   
+}
+.BoxFour{
+    display: inline-block;
+    color: grey;
+    border-top: black 2px solid;
+    padding: 12px 20px;
+    
+    
+}
+input{
+    
+    width: 85%;
+    height: 30px;
+    margin: 8px 120px;
+}
+textarea{
+    
+    margin: 8px 120px;
+    width: 85%;
+    height: 60px;
+}
